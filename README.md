@@ -42,54 +42,69 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home1.png">
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home2.png">
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home3.png">
-User can sucsribe to bulletin
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home4.png">
-Blogs can be filtered according to categories.
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/categry/category1.png">
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/categry/category2.png">
 
-##Blog Details
+User can sucsribe to bulletin
+
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home4.png">
+
+Blogs can be filtered according to categories.
+
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/category/category1.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/category/category1.png">
+
+## Blog Details
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/blogdetails/blogdetails1.png">
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/blogdetails/blogdetails2.png">
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/blogdetails/blogdetails3.png">
 
 Users can leave comment.
+
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/blogdetails/blogdetails4.png">
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/blogdetails/blogdetails5.png">
 
-## Contents
+## About Us Page
 
-User can visit writer profiles, get personal infos and writer's contents.
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/aboutus/aboutus1.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/aboutus/aboutus2.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/aboutus/aboutus3.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/aboutus/aboutus4.png">
 
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211004230-51562a58-01e7-4a01-ad4e-07b83708fa17.png">
 
-## Roles
-:star2: Areas used for writer - admin panels.
-User can edit contents.
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005864-ed0c3ba0-cd98-4d2b-954c-9beb916206c6.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005548-dcc63639-d5d7-43e8-a50c-f04e7057cb96.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005632-95bf8f41-82b4-43e9-ae5a-980a2213312b.png">
-:point_down: If user is not in role, 403 unauthorized page appears.
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211006301-0298db6b-9b8d-4d72-a67c-e71d37104420.png">
+## Contact Us Page
+:star2: Page for users to contact with admins.
+User can message the admins.
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/contactus/contactus1.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/aboutus/contactus2.png">
 
-## Info
+## Authors
+:star2: Areas used for writers.
 
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005710-5b9bdea4-4662-449c-aeb3-75f3c44f5ab1.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005741-2bf3dc27-2f47-4d39-988c-71bd2b00dbca.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005799-4016fc68-d4e0-442b-8b81-3b5806a11ad6.png">
+Author Login
 
-## Identity
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/authorlogin.png">
 
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211004759-1c83e13f-023c-4a87-82c7-a4b49ab42ea5.png">
-<img width="1134" alt="image" src="https://user-images.githubusercontent.com/107196935/211000425-c4770136-b4f6-4a04-b45a-e101cd5193da.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005119-0a032d9a-c71e-4006-a0aa-111b3cc7497a.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005053-75b2b544-cf4f-4f77-9ae9-ae77efe5bb7d.png">
-<img width="1006" alt="image" src="https://user-images.githubusercontent.com/107196935/211009378-5e76bf68-6897-4143-ae65-1a13813feaee.png">
-<img width="1284" alt="image" src="https://user-images.githubusercontent.com/107196935/211005357-3ebdd3aa-2cd1-474f-a3ad-78d812886e6c.png">
+Author Control Panel
+
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/author1.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/author2.png">
+
+## Admins
+:star2: Areas used for admins.
+
+Admin Login
+
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/admin/adminlogin.png">
+
+Admin Control Panel
+
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin1.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin2.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin3.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin4.png">
 
 ## Contact
 
-Gözdem Oğuş - [@Linkedin](https://www.linkedin.com/in/gozdemogus/) 
+Ali Kaan Yayla - [@Linkedin](https://www.linkedin.com/in/ali-kaan-yayla/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
