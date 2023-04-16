@@ -14,12 +14,21 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
     <li>
       <a href="#home">Home Page</a>
     </li>
-    <li><a href="#contents">Contents</a>
+        <li>
+      <a href="#blogdetails">Blog Details</a>
     </li>
-    <li><a href="#roles">Roles</a></li>
-        <li><a href="#info">User Info</a></li>
-                     <li><a href="#identity">Identity Operations</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <li>
+      <a href="#aboutuspage">About Us Page</a>
+    </li>
+        <li>
+      <a href="#contactuspage">Contact Us Page</a>
+    </li>
+        <li>
+      <a href="#authors">Authors</a>
+    </li>
+        <li>
+      <a href="#admins">Admins</a>
+    </li>
   </ol>
 </details>
 
@@ -27,14 +36,13 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
 ## About
 - Includes blog posts about movies, arts, technology, software, etc.
 - Users can leave comment and add their own ratings.
-- There are writer and admin roles
+- There are writer and admin roles.
 
 ## Used
 
 - .NET Core 5.0
 - Entity Framework
 - Fluent Validation
-- Identity Framework
 - HTML, CSS
 
 
@@ -43,7 +51,7 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home2.png">
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home3.png">
 
-User can sucsribe to bulletin
+User can subscribe to bulletin
 
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/home4.png">
 
@@ -74,7 +82,7 @@ Users can leave comment.
 :star2: Page for users to contact with admins.
 User can message the admins.
 <img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/contactus/contactus1.png">
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/aboutus/contactus2.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/contactus/contactus2.png">
 
 ## Authors
 :star2: Areas used for writers.
@@ -97,10 +105,10 @@ Admin Login
 
 Admin Control Panel
 
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin1.png">
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin2.png">
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin3.png">
-<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/author/admin4.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/admin/admin1.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/admin/admin2.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/admin/admin3.png">
+<img width="1141" alt="image" src="https://raw.githubusercontent.com/dostundegil/MvcBlog/master/MvcBlog/Content/GitImage/admin/admin4.png">
 
 ## Contact
 
