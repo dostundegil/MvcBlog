@@ -15,13 +15,13 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
       <a href="#home">Home Page</a>
     </li>
         <li>
-      <a href="#blogdetails">Blog Details</a>
+      <a href="#blog-details">Blog Details</a>
     </li>
         <li>
-      <a href="#aboutuspage">About Us Page</a>
+      <a href="#about-us-page">About Us Page</a>
     </li>
         <li>
-      <a href="#contactuspage">Contact Us Page</a>
+      <a href="#contact-us-page">Contact Us Page</a>
     </li>
         <li>
       <a href="#authors">Authors</a>
