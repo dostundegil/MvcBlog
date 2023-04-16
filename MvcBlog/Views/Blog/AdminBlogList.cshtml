@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EntityLayer.Concrate.Blog>
+@{
+    ViewBag.Title = "Admin | Blog Listesi Eski";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card card-blue">
+    <div class="card-header">Blog Listesi</div>
+    <div class="container-fluid">
+        <div class="card-body">
+            <table class="table table-bordered">
+                <tr>
+                    <th>ID</th>
+                    <th>Başlık</th>
+                    <th>Kategori</th>
+                    <th>Tarih</th>
+                    <th>Detaylar</th>
+                    <th>Yorumlar</th>
+                    <th>Güncelle</th>
+                    <th>Sil</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.BlogID</td>
+                        <td>@item.BlogTitle</td>
+                        <td>@item.Category.CategoryName</td>
+                        <td>@item.BlogDate.ToShortDateString()</td>
+                        <td><a href="/Blog/BlogDetails/@item.BlogID" class="btn btn-success">Detaylar</a></td>
+                        <td><a href="/Blog/GetCommentByBlog/@item.BlogID" class="btn btn-dark">Yorumlar</a></td>
+                        <td><a href="/Blog/UpdateBlog/@item.BlogID" class="btn btn-warning">Güncelle</a></td>
+                        <td><a href="/Blog/DeleteBlog/@item.BlogID" class="btn btn-danger">Sil</a></td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<a href="/Blog/AddNewBlog/" class="btn btn-outline-primary">Yeni Blog Ekle</a>

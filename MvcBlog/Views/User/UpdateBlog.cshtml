@@ -1,0 +1,53 @@
+﻿@model EntityLayer.Concrate.Blog
+@{
+    ViewBag.Title = "UpdateBlog";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+
+@using (Html.BeginForm("UpdateBlog", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div class="container">
+    <div class="card card-blue">
+        <div class="card-header">Blog Güncelle</div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    @Html.HiddenFor(x => x.BlogID)
+                    @Html.Label("Blog Başlığı")
+                    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("Kategori")
+                    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.values, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("İçerik")
+                    @Html.TextAreaFor(x => x.BlogContent, 9, 20, new { @class = "form-control" })
+                    <br />
+                </div>
+                <div class="col-sm">
+                    @Html.Label("Tarih")
+                    @Html.TextBoxFor(x => x.BlogDate, new { @class = "form-control" })
+                    <br />
+
+                    @Html.Label("Yazar")
+                    @Html.DropDownListFor(x => x.AuthorID, (List<SelectListItem>)ViewBag.values2, new { @class = "form-control" })
+                    <br />
+                    @Html.Label("Mevcut Fotoğraf")
+                    <br />
+                    <img src="@ViewBag.image" class="rounded img-fluid h-50 w-75">
+
+                </div>
+            </div>
+            @Html.Label("Resim")
+            <div class="custom-file">
+                <label class="custom-file-label">Dosya Seç</label>
+                <input class="custom-file-input" value="@ViewBag.image" type="file" id="BlogImage" name="BlogImage">
+            </div>
+            <br />
+            <br />
+
+        </div>
+    </div>
+    <button class="btn btn-outline-info">Güncelle</button>
+    <a href="/User/BlogList/" class="btn btn-outline-danger">Vazgeç</a>
+</div>
+}

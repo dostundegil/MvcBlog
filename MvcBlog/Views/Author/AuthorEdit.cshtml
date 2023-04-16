@@ -1,0 +1,64 @@
+﻿@model EntityLayer.Concrate.Author
+@{
+    /**/
+
+    ViewBag.Title = "Admin | Yazar Düzenleme Sayfası";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("AuthorEdit", "Author", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container">
+        <div class="card card-green">
+            <div class="card-header">Yazar Güncelle</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        @Html.HiddenFor(x => x.AuthorID)
+                        @Html.Label("Yazar Adı Soyadı")
+                        @Html.TextBoxFor(x => x.AuthorName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AuthorName, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.Label("Yazar Yetenekler")
+                        @Html.TextBoxFor(x => x.AboutShrot, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AboutShrot, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.Label("Yazarın Statüsü")
+                        @Html.TextBoxFor(x => x.AuthorTitle, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AuthorTitle, "", new { @class = "text-danger" })
+                        <br />
+
+                        @Html.Label("Hakkında")
+                        @Html.TextAreaFor(x => x.AuthorAbout, 9, 20, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AuthorAbout, "", new { @class = "text-danger" })
+                        <br />
+                    </div>
+                    <div class="col-sm">
+                        @Html.Label("Mail Adresi")
+                        @Html.TextBoxFor(x => x.AuthorMail, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AuthorMail, "", new { @class = "text-danger" })
+                        <br />
+
+                        @Html.Label("Şifre")
+                        @Html.TextBoxFor(x => x.AuthorPassword, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AuthorPassword, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.Label("Telefon")
+                        @Html.TextBoxFor(x => x.AuthorPhone, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.AuthorPassword, "", new { @class = "text-danger" })
+                        <br />
+                        @Html.Label("Mevcut Fotoğraf")
+                        <br />
+                        <img src="@ViewBag.image" class="rounded-circle img-fluid" style="max-height:200px">
+                    </div>
+                </div>
+                @Html.Label("Resim Yolu")
+                @Html.TextBoxFor(x => x.AuthorImage, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.AuthorImage, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <button class="btn btn-info">Güncelle</button>
+        <a href="/Author/AuthorList/" class="btn btn-danger">Vazgeç</a>
+    </div>
+
+}

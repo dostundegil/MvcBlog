@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EntityLayer.Concrate.Comment>
+@{
+    ViewBag.Title = "AdminCommentListTrue";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <!-- Main content -->
+    <section class="content">
+        <div class="card card-blue">
+            <div class="card-header">Onaylı Yorumlar</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card-body">
+                        <!-- Post -->
+                        @foreach (var item in Model)
+                        {<div class="card">
+                                <div class="post">
+                                    <div class="user-block">
+                                        <div class="card-header">
+                                            <img class="img-circle img-bordered-sm" src="/adminLTE-3.0.4/dist/img/user1-128x1281.jpg" alt="user image">
+                                            <span class="username">
+                                                <a href="#">@item.UserName - @item.Blogs.BlogTitle</a>
+                                            </span>
+                                            <span class="description">@(((DateTime)item.CommentDate).ToString("dd-MMM-yyyy"))</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>@item.CommentText </p>
+                                        <span class="float-right">
+                                            <a href="/Comment/CommentStatusChangeFalse/@item.CommentID" class="text-danger text-sm mr-2">
+                                                <i class="fas fa-times"></i> Yorumu Kaldır
+                                            </a>
+                                        </span>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+

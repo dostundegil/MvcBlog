@@ -1,0 +1,28 @@
+﻿
+
+@{
+    ViewBag.Title = "Yazar | Ayarlar";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-blue">
+                            <div class="card-header p-2">Ayarlar</div>
+                            <div class="card-body">
+                                @Html.Action("Partial1", "User")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

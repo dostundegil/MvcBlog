@@ -1,0 +1,51 @@
+﻿@model EntityLayer.Concrate.About
+@{
+    ViewBag.Title = "Admin | Hakkında Düzenleme Sayfası";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("UpdateAbout", "About", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container">
+        <div class="card card-green">
+            <div class="card-header">Hakkımızda Güncelleme</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        @Html.HiddenFor(x => x.AboutID)
+                        @Html.Label("Hakkımızda Fotoğraf 1")
+                        <br />
+                        <img src="@Html.DisplayTextFor(x=>x.AboutImage1)" class="rounded img-fluid h-50">
+                        <br />
+                        @Html.Label("Resim Yolu")
+                        @Html.TextBoxFor(x => x.AboutImage1, new { @class = "form-control" })
+                        <br />
+
+                        @Html.Label("Hakkımızda İçerik 1")
+                        @Html.TextAreaFor(x => x.AboutContent1, 9, 20, new { @class = "form-control" })
+                        <br />
+
+                    </div>
+                    <div class="col-sm">
+
+                        @Html.Label("Hakkımızda Fotoğraf 2")
+                        <br />
+                        <img src="@Html.DisplayTextFor(x=>x.AboutImage2)" class="rounded img-fluid h-50">
+                        <br />
+                        @Html.Label("Resim Yolu")
+                        @Html.TextBoxFor(x => x.AboutImage2, new { @class = "form-control" })
+                        <br />
+                        @Html.Label("Hakkımızda İçerik 1")
+                        @Html.TextAreaFor(x => x.AboutContent2, 9, 20, new { @class = "form-control" })
+                        <br />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <button class="btn btn-info">Güncelle</button>
+    <a href="/About/UpdateAbout/" class="btn btn-danger">Vazgeç</a>
+}
