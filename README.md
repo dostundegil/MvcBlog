@@ -40,7 +40,7 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
 
 ## Used
 
-- .NET Core 5.0
+- .NET MVC5
 - Entity Framework
 - Fluent Validation
 - HTML, CSS
