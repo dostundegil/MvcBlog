@@ -29,6 +29,9 @@ A .NET MVC blog project, which users can read blogs, add comments, rate blogs, i
         <li>
       <a href="#admins">Admins</a>
     </li>
+        <li>
+      <a href="#contact">Contact Me</a>
+    </li>
   </ol>
 </details>
 
